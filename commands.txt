@@ -9,7 +9,9 @@ These are some of the commands in Git bash
  - git add /git add .  : Add one or more files to staging area
  - git commit -m "commit messdage"(advised to write message in present tense) : Commit changes to head but not to remote repository
  - git status : Check the status of your current repository and list the files you have changed 
+ - git reset Head --hard commitID : This helps to revert any change in commit.
  - git log : Provides a list of all the commits made on your branch
+ - git reflog : It provides the list of all the commits performed.
  - git diff : View the changes you have made to the file
  - git clone :Creates a Git repository copy from  remote source
  - git branch <branch name> : Create a new branch
@@ -17,4 +19,5 @@ These are some of the commands in Git bash
  - git merge <branch name> : Merge a branch into active branch
  - git pust -u origin <branch name> : Push the branch to the remote repository so that pthers can use it
  - git clone : Creates a Git repository copy from a remote source
+
 
