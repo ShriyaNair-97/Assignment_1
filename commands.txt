@@ -1,0 +1,20 @@
+These are some of the commands in Git bash
+
+ - git init  : initialize a local Git repository
+ - git config --global user.name "Shriya"  : tell Git who you are by configuring the author name
+ - git config --global user.email "shriya.nair@zensar.com"  : tell Git who you are by configuring the emailId
+ - git config --global core.editor "code --wait" : tell Git in which editor it needs to work
+ - git configedit --global : ask Git to show what all have been configured
+ - ls : shows what are the number of files
+ - git add /git add .  : Add one or more files to staging area
+ - git commit -m "commit messdage"(advised to write message in present tense) : Commit changes to head but not to remote repository
+ - git status : Check the status of your current repository and list the files you have changed 
+ - git log : Provides a list of all the commits made on your branch
+ - git diff : View the changes you have made to the file
+ - git clone :Creates a Git repository copy from  remote source
+ - git branch <branch name> : Create a new branch
+ - git checkout <branch name>: Switch from one branch to another
+ - git merge <branch name> : Merge a branch into active branch
+ - git pust -u origin <branch name> : Push the branch to the remote repository so that pthers can use it
+ - git clone : Creates a Git repository copy from a remote source
+
