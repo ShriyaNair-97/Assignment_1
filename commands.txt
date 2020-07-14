@@ -216,3 +216,194 @@ $ code instruction.txt
 lenovo@LAPTOP-6R4M7VF6 MINGW64 /e/Assignment_1(git)/Git commands (assignment)
 $ code commands.txt
 
+lenovo@LAPTOP-6R4M7VF6 MINGW64 /e/Assignment_1(git)/Git commands (assignment)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+lenovo@LAPTOP-6R4M7VF6 MINGW64 /e/Assignment_1(git)/Git commands (master)
+$ git log
+commit 13d1b77281920e1a22ed11a523b6efb6b065a0ce (HEAD -> master, origin/master)
+Author: Shriya nair <shriya.nair@zensar.com>
+Date:   Tue Jul 14 21:52:09 2020 +0530
+
+    Add a new text file
+
+commit 9d6b670336c54ce0eb874b1646a0ffba617e3a1d
+Author: Shriya nair <shriya.nair@zensar.com>
+Date:   Tue Jul 14 21:50:35 2020 +0530
+
+    Add README.md file
+
+lenovo@LAPTOP-6R4M7VF6 MINGW64 /e/Assignment_1(git)/Git commands (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+lenovo@LAPTOP-6R4M7VF6 MINGW64 /e/Assignment_1(git)/Git commands (master)
+$ git checkout assignment
+Switched to branch 'assignment'
+
+lenovo@LAPTOP-6R4M7VF6 MINGW64 /e/Assignment_1(git)/Git commands (assignment)
+$ code instruction.txt
+
+lenovo@LAPTOP-6R4M7VF6 MINGW64 /e/Assignment_1(git)/Git commands (assignment)
+$ code commands.txt
+Author: Shriya nair <shriya.nair@zensar.com>
+Date:   Tue Jul 14 22:10:24 2020 +0530
+
+    Add the commands in text
+
+commit 1ce20faa4f10989f990175e4825b42d07e1dc1cb
+Author: Shriya nair <shriya.nair@zensar.com>
+Date:   Tue Jul 14 22:05:30 2020 +0530
+
+    Add two commands
+
+commit 13d1b77281920e1a22ed11a523b6efb6b065a0ce (origin/master)
+Author: Shriya nair <shriya.nair@zensar.com>
+Date:   Tue Jul 14 21:52:09 2020 +0530
+
+    Add a new text file
+
+commit 9d6b670336c54ce0eb874b1646a0ffba617e3a1d
+Author: Shriya nair <shriya.nair@zensar.com>
+Date:   Tue Jul 14 21:50:35 2020 +0530
+
+    Add README.md file
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+commit c9fff0f669bf2f73b4b31de815fcab87e7edbf94 (HEAD -> master, assignment)
+Author: Shriya nair <shriya.nair@zensar.com>
+Date:   Tue Jul 14 22:10:24 2020 +0530
+
+    Add the commands in text
+
+commit 1ce20faa4f10989f990175e4825b42d07e1dc1cb
+Author: Shriya nair <shriya.nair@zensar.com>
+Date:   Tue Jul 14 22:05:30 2020 +0530
+
+    Add two commands
+
+commit 13d1b77281920e1a22ed11a523b6efb6b065a0ce (origin/master)
+Author: Shriya nair <shriya.nair@zensar.com>
+Date:   Tue Jul 14 21:52:09 2020 +0530
+
+    Add a new text file
+
+commit 9d6b670336c54ce0eb874b1646a0ffba617e3a1d
+Author: Shriya nair <shriya.nair@zensar.com>
+Date:   Tue Jul 14 21:50:35 2020 +0530
+
+    Add README.md file
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+
+lenovo@LAPTOP-6R4M7VF6 MINGW64 /e/Assignment_1(git)/Git commands (master)
+$ git branch
+  assignment
+* master
+
+lenovo@LAPTOP-6R4M7VF6 MINGW64 /e/Assignment_1(git)/Git commands (master)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 2.27 KiB | 465.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/ShriyaNair-97/Assignment_1.git
+   13d1b77..c9fff0f  master -> master
+
+lenovo@LAPTOP-6R4M7VF6 MINGW64 /e/Assignment_1(git)/Git commands (master)
+$ git checkout assignment
+Switched to branch 'assignment'
+
+lenovo@LAPTOP-6R4M7VF6 MINGW64 /e/Assignment_1(git)/Git commands (assignment)
+$ git push
+fatal: The current branch assignment has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin assignment
+
+
+lenovo@LAPTOP-6R4M7VF6 MINGW64 /e/Assignment_1(git)/Git commands (assignment)
+$   git push --set-upstream origin assignment
+
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'assignment' on GitHub by visiting:
+remote:      https://github.com/ShriyaNair-97/Assignment_1/pull/new/assignment
+remote:
+To https://github.com/ShriyaNair-97/Assignment_1.git
+ * [new branch]      assignment -> assignment
+Branch 'assignment' set up to track remote branch 'assignment' from 'origin'.
